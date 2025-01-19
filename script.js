@@ -10,4 +10,5 @@ function animate {
     ctx.clearRect(0,0,CANVAs_WIDTH,CANVAs_HEIGHT);
     ctx.fillRect(50,50,100,100);
     requestAnimationFrame(animate);
-}
+};
+animate();
